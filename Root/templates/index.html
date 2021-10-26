@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Classification</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css')}}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css')}}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Painting style</a></li>
+							<li><a href="#two">Exhibitions</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>화풍을 찾아드립니다.</h1>
+							<p>그림을 올려보세요. <br />
+							그 그림과 가까운 장르와 진행 중인 전시회를 추천해드립니다.</p>
+							<form action="http://localhost:5000/fileUpload" method="post" enctype="multipart/form-data" >
+								<input type="file" name="file" class="button scrolly" accept="image/*">
+								<input type="submit" class="button scrolly">
+							</form>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>장르 분석</h2>
+							<p>그림의 장르가 나왔습니다. 작가 및 전시회 추천은 스크롤을 내려주세요.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>{{ style }}</h3>
+									<p>{{ percent_art }}</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style2 spotlights">
+						<section>
+							<!--<a href="#" class="image"><img src="{{ url_for('static', filename='images/pic01.jpg')}}" alt="" data-position="center center" /></a>-->
+							<div class="content">
+								<div class="inner">
+									<h2>Best recommendation</h2>
+									<p>{{ top1 }}</p>
+									<p>Your painting matches this artist with a {{ prob_1 }} probability.</p>
+									<ul class="actions">
+										<li><a href="http://www.artnet.com/artists/{{ top1 }}/events" class="button">Find exhibitions</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<!--<a href="#" class="image"><img src="{{ url_for('static', filename='images/pic02.jpg')}}" alt="" data-position="25% 25%" /></a>-->
+							<div class="content">
+								<div class="inner">
+									<h2>Second recommendation</h2>
+									<p>{{ top2 }}</p>
+									<p>Your painting matches this artist with a {{ prob_2 }} probability.</p>
+									<ul class="actions">
+										<li><a href="http://www.artnet.com/artists/{{ top2 }}/events" class="button">Find exhibitions</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<!--<a href="#" class="image"><img src="{{ url_for('static', filename='images/pic03.jpg')}}" alt="" data-position="25% 25%" /></a>-->
+							<div class="content">
+								<div class="inner">
+									<h2>Third recommendation</h2>
+									<p>{{ top3 }}</p>
+									<p>Your painting matches this artist with a {{ prob_3 }} probability.</p>
+									<ul class="actions">
+										<li><a href="http://www.artnet.com/artists/{{ top3 }}/events" class="button">Find exhibitions</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+			</div>
+
+		<!-- Footer -->
+		    <footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>2020 컴퓨터과학과 총장배 소프트웨어경진대회</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='assets/js/jquery.min.js')}}"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js')}}"></script>
+			<script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js')}}"></script>
+			<script src="{{ url_for('static', filename='assets/js/browser.min.js')}}"></script>
+			<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js')}}"></script>
+			<script src="{{ url_for('static', filename='assets/js/util.js')}}"></script>
+			<script src="{{ url_for('static', filename='assets/js/main.js')}}"></script>
+
+	</body>
+</html>

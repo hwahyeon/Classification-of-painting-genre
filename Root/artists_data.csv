@@ -1,0 +1,99 @@
+,Unnamed: 0,no,name,genre,genre2
+0,0,1,Amedeo-Modigliani,Expressionism,Expressionism
+1,1,2,René-Magritte,Surrealism,Surrealism
+2,2,3,Pietro-Perugino,High_Renaissance,High Renaissance
+3,3,4,Claude-Monet,Impressionism,Impressionism
+4,4,5,Wassily-Kandinsky,Expressionism,Expressionism
+5,5,6,Salvador-Dalí,Surrealism,Surrealism
+6,6,7,Édouard-Manet,Impressionism,Impressionism
+7,7,8,Ronnie-Landfield,Abstract_Expressionism,Abstract Expressionism
+8,8,9,Vincent-van-Gogh,Post_Impressionism,Post Impressionism
+9,9,10,Gustav-Klimt,Symbolism,Symbolism
+10,10,11,Hieronymus-Bosch,Northern_Renaissance,Northern Renaissance
+11,11,12,Jacek-Yerka,Surrealism,Surrealism
+12,12,13,Mikhail-Aleksandrovich-Vrubel,Symbolism,Symbolism
+13,13,14,Pablo-Picasso,Cubism,Cubism
+14,14,15,Peter-Paul-Rubens,Baroque,Baroque
+15,15,16,Pierre-Auguste-Renoir,Impressionism,Impressionism
+16,16,17,Francisco-Goya,Romanticism,Romanticism
+17,17,18,Frida-Kahlo,Primitivism,Primitivism
+18,18,19,El-Greco,Mannerism,Mannerism
+19,19,20,Albrecht-Dürer,Northern_Renaissance,Northern Renaissance
+20,20,21,Alfred-Sisley,Impressionism,Impressionism
+21,21,22,Pieter-Bruegel-the-Elder,Northern_Renaissance,Northern Renaissance
+22,22,23,Marc-Chagall,Primitivism,Primitivism
+23,23,24,Jean-Baptiste-Camille-Corot,Realism,Realism
+24,24,25,Sandro-Botticelli,Early_Renaissance,Early Renaissance
+25,25,26,Caravaggio,Baroque,Baroque
+26,26,27,Leonardo-da-Vinci,High_Renaissance,High Renaissance
+27,27,28,Diego-Velázquez,Baroque,Baroque
+28,28,29,Henri-Matisse,Impressionism,Impressionism
+29,29,30,Jan-van-Eyck,Northern_Renaissance,Northern Renaissance
+30,30,31,Edgar-Degas,Impressionism,Impressionism
+31,31,32,Rembrandt-van-Rijn,Baroque,Baroque
+32,32,33,Titian,High_Renaissance,High Renaissance
+33,33,34,Henri-de-Toulouse-Lautrec,Post_Impressionism,Post Impressionism
+34,34,35,Gustave-Courbet,Realism,Realism
+35,35,36,Camille-Pissarro,Impressionism,Impressionism
+36,36,37,Joseph-Mallord-William-Turner,Romanticism,Romanticism
+37,37,38,Edvard-Munch,Expressionism,Expressionism
+38,38,39,Paul-Cezanne,Post_Impressionism,Post Impressionism
+39,39,40,Eugène-Delacroix,Romanticism,Romanticism
+40,40,41,Henri-Rousseau,Primitivism,Primitivism
+41,41,42,Georges-Seurat,Post_Impressionism,Post Impressionism
+42,42,43,Paul-Klee,Expressionism,Expressionism
+43,43,44,Sam-Francis,Abstract_Expressionism,Abstract Expressionism
+44,44,45,Joan-Miró,Surrealism,Surrealism
+45,45,46,Andy-Warhol,Pop_Art,Pop Art
+46,46,47,Paul-Gauguin,Post_Impressionism,Post Impressionism
+47,47,48,Raphael,High_Renaissance,High Renaissance
+48,48,49,Michelangelo,High_Renaissance,High Renaissance
+49,49,50,Jackson-Pollock,Abstract_Expressionism,Abstract Expressionism
+50,50,51,Roy-Lichtenstein,Pop_Art,Pop Art
+51,51,52,Keith-Haring,Pop_Art,Pop Art
+52,52,53,Georges-Braque,Cubism,Cubism
+53,53,54,Aubrey-Beardsley,Art_Nouveau,Art Nouveau
+54,54,55,Eastman-Johnson,Realism,Realism
+55,55,56,Willem-de-kooning,Abstract_Expressionism,Abstract Expressionism
+56,56,57,Tintoretto,Mannerism,Mannerism
+57,57,58,Juan-Gris,Cubism,Cubism
+58,58,59,Domenico-Ghirlandaio,Early_Renaissance,Early Renaissance
+59,59,60,Alphonse-Mucha,Art_Nouveau,Art Nouveau
+60,60,61,Gustave-Moreau,Symbolism,Symbolism
+61,61,62,Umberto-Boccioni,Futurism,Futurism
+62,62,63,Walter-Crane,Art_Nouveau,Art Nouveau
+63,63,64,Andrea-Mantegna,Early_Renaissance,Early Renaissance
+64,64,65,George-Romney,Rococo,Rococo
+65,65,66,Giacomo-Balla,Futurism,Futurism
+66,66,67,Fernando-Botero,Primitivism,Primitivism
+67,67,68,Giovanni-Battista-Tiepolo,Rococo,Rococo
+68,68,69,Alfred-Wallis,Primitivism,Primitivism
+69,69,70,Benozzo-Gozzoli,Early_Renaissance,Early Renaissance
+70,70,71,Odilon-Redon,Symbolism,Symbolism
+71,71,72,Nicolas-Poussin,Baroque,Baroque
+72,72,73,Arnold-Böcklin,Symbolism,Symbolism
+73,73,74,Mary-Cassatt,Impressionism,Impressionism
+74,74,75,Paolo-Veronese,Mannerism,Mannerism
+75,75,76,Max-Ernst,Surrealism,Surrealism
+76,76,77,Ernst-Ludwig-Kirchner,Expressionism,Expressionism
+77,77,78,Lorenzo-Lotto,High_Renaissance,High Renaissance
+78,78,79,Fernand-Léger,Cubism,Cubism
+79,79,80,Fra-Angelico,Early_Renaissance,Early Renaissance
+80,80,81,Jacek-Malczewski,Symbolism,Symbolism
+81,81,82,Helen-Frankenthaler,Abstract_Expressionism,Abstract Expressionism
+82,82,83,Joshua-Reynolds,Rococo,Rococo
+83,83,84,Koloman-Moser,Art_Nouveau,Art Nouveau
+84,84,85,Carlo-Carrà,Futurism,Futurism
+85,85,86,Jean-François-Millet,Realism,Realism
+86,86,87,Thomas-Gainsborough,Rococo,Rococo
+87,87,88,Otto-Mueller,Expressionism,Expressionism
+88,88,89,Joseph-Wright-of-Derby,Romanticism,Romanticism
+89,89,90,Jacopo-Palma-il-Giovane,Mannerism,Mannerism
+90,90,91,Ivan-Bilibin,Art_Nouveau,Art Nouveau
+91,91,92,William-Hogarth,Rococo,Rococo
+92,92,93,Winslow-Homer,Realism,Realism
+93,93,94,Théodore-Géricault,Romanticism,Romanticism
+94,94,95,Mstislav-Valerianovich-Dobuzhinsky,Symbolism,Symbolism
+95,95,96,Leon-Bakst,Art_Nouveau,Art Nouveau
+96,96,97,David-Burliuk,Futurism,Futurism
+97,97,98,Lucas-Cranach-the-Elder,Northern_Renaissance,Northern Renaissance
